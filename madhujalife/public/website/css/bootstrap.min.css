@@ -18,8 +18,8 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #00f241;
-    --bs-secondary: #00f241;
+    --bs-primary: #188f37;
+    --bs-secondary: #188f37;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -2268,9 +2268,9 @@ progress {
 .form-control:focus {
     color: #919191;
     background-color: #fff;
-    border-color: #00f241;
-    outline: 0;
-    box-shadow: 0 0 0 .25rem rgb(131 242 0 / 25%);
+    border-color: #188f37;
+    outline: none;
+    /* box-shadow: 0 0 0 .25rem rgb(131 242 0 / 25%); */
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -2467,7 +2467,7 @@ textarea.form-control-lg {
 }
 
 .form-select:focus {
-    border-color: #00f241;
+    border-color: #188f37;
     outline: 0;
     box-shadow: 0 0 0 .25rem rgb(131 242 0 / 25%);  
 }
@@ -2543,14 +2543,14 @@ textarea.form-control-lg {
 }
 
 .form-check-input:focus {
-    border-color: #00f241;
+    border-color: #188f37;
     outline: 0;
     box-shadow: 0 0 0 .25rem rgba(242, 139, 0, .25)
 }
 
 .form-check-input:checked {
     background-color: #f28b00;
-    border-color: #00f241
+    border-color: #188f37
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -2563,7 +2563,7 @@ textarea.form-control-lg {
 
 .form-check-input[type=checkbox]:indeterminate {
     background-color: #f28b00;
-    border-color: #00f241;
+    border-color: #188f37;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e")
 }
 
@@ -3140,20 +3140,20 @@ fieldset:disabled .btn {
 .btn-primary {
     color: #000;
     background-color: #f28b00;
-    border-color: #00f241
+    border-color: #188f37
 }
 
 .btn-primary:hover {
     color: #000;
     background-color: rgb(243.95, 156.4, 38.25);
-    border-color: #00f241
+    border-color: #188f37
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #000;
     background-color: rgb(243.95, 156.4, 38.25);
-    border-color: #00f241;
+    border-color: #188f37;
     box-shadow: 0 0 0 .25rem rgb(131 242 0 / 25%);
 }
 
@@ -3164,7 +3164,7 @@ fieldset:disabled .btn {
 .show>.btn-primary.dropdown-toggle {
     color: #000;
     background-color: rgb(244.6, 162.2, 51);
-    border-color: #00f241
+    border-color: #188f37
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -8344,7 +8344,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color:#00f241 !important
+    color:#188f37 !important
 }
 
 .text-secondary {

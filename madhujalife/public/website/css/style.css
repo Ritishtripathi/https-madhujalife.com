@@ -874,6 +874,31 @@ h4.m-0 {
 
 /*** Footer End ***/
 
+.footer-section-bg {
+    position: relative;
+    background: url(https://img.freepik.com/premium-photo/medicine-pill-capsules-fallling-with-blue-background-healthcare-medical-3d-illustration-background_518421-472.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* Transparent Color Layer on top of the image */
+.footer-section-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.697); /* Black with 55% transparency */
+    z-index: 1;
+}
+
+/* Make sure footer text and content stay above overlay */
+.footer-section-bg * {
+    position: relative;
+    z-index: 2;
+    color: #fff; /* Text visible on dark background */
+}
 
 /*** copyright Start ***/
 .copyright {
