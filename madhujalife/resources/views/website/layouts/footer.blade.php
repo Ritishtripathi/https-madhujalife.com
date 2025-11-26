@@ -23,7 +23,7 @@
                     </div>
                     <div class="ms-3">
                         <h4 class="text-white">Mail Us</h4>
-                        <p class="mb-2">manish.kumar@madhujalife.com</p>
+                        <p class="mb-2">info@madhujalife.com</p>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                     </div>
                     <div class="ms-3">
                         <h4 class="text-white">Call Us</h4>
-                        <p class="mb-2">+91 9999916764</p>
+                        <p class="mb-2">+91 98793 24731</p>
                     </div>
                 </div>
             </div>

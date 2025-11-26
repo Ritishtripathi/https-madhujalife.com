@@ -16,8 +16,8 @@
 /*** Spinner End ***/
 
 .logo-img{
-    height: 60px;
-    width: 100%;
+    height: 100px;
+    width: 140%;
 }
 @media (max-width: 576px) {
     .logo-img {
@@ -80,6 +80,12 @@ h4.m-0 {
     border-radius: 50%;
 }
 
+.top-header-area{
+  /* background: linear-gradient(to bottom right, #1a1a2e, #16213e, #0f3460); */
+  background: linear-gradient(to left, #052d60,  #188f37);
+  color:white;
+
+}
 .btn.btn-primary {
     background: var(--bs-primary) !important;
     color: var(--bs-white) !important;

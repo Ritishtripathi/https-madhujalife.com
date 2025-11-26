@@ -45,24 +45,24 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid px-5 d-none border-bottom d-lg-block">
+    <div class="container-fluid px-5 top-header-area d-none border-bottom d-lg-block">
         <div class="row gx-0 align-items-center">
             <div class="col-lg-4 text-center text-lg-start mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a href="#" class="text-muted me-2"> Help</a><small> / </small>
-                    <a href="#" class="text-muted mx-2"> Support</a><small> / </small>
-                    <a href="#" class="text-muted ms-2"> Contact</a>
+                    <a href="#" class="text-white me-2"> Help</a><small> / </small>
+                    <a href="#" class="text-white mx-2"> Support</a><small> / </small>
+                    <a href="#" class="text-white ms-2"> Contact</a>
 
                 </div>
             </div>
             <div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
-                <small class="text-dark">Call Us:</small>
-                <a href="#" class="text-muted">(+012) 1234 567890</a>
+                <small class="text-white">Call Us:</small>
+                <a href="#" class="text-white">+91 98793 24731</a>
             </div>
 
             <div class="col-lg-4 text-center text-lg-end">
-                <small class="text-dark">Email Us:</small>
-                <a href="#" class="text-muted">madhujalife@gmail.com</a>
+                <small class="text-white">Email Us:</small>
+                <a href="#" class="text-white">info@madhujalife.com</a>
                 {{-- <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <div class="dropdown">
                         <a href="#" class="dropdown-toggle text-muted me-2" data-bs-toggle="dropdown"><small>
@@ -99,8 +99,13 @@
             </div>
         </div>
     </div>
-    {{-- <div class="container-fluid px-3 py-3"> --}}
-        <div class="container-fluid px-5 py-4 d-none d-lg-block">
+   
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar p-0">
+         {{-- <div class="container-fluid px-3 py-3"> --}}
+        <div class="container-fluid px-5 bg-white py-1 d-none d-lg-block">
         <div class="row gx-0 align-items-center text-center">
             <div class="col-md-4 col-lg-3 text-center text-lg-start">
                 <div class="d-inline-flex align-items-center">
@@ -142,10 +147,6 @@
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
-
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid nav-bar p-0">
         <div class="row gx-0 bg-primary px-5 align-items-center">
             <div class="col-lg-3 d-none d-lg-block">
                 <nav class="navbar navbar-light position-relative" style="width: 250px;">
@@ -251,7 +252,7 @@
                             </div>
                         </div>
                         <a href="" class="btn btn-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0"><i
-                                class="fa fa-mobile-alt me-2"></i> +0123 456 7890</a>
+                                class="fa fa-mobile-alt me-2"></i> +91 98793 24731</a>
                     </div>
                 </nav>
             </div>
